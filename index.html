@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spectaria - Maintenance</title>
+    <style>
+        /* Retro CSS Styles from 2017 Era */
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            background-color: #87ceeb;
+            margin: 0;
+            padding: 0;
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h3 { font-size: 24px; color: #333; margin: 5px; }
+        h4 { font-size: 18px; color: #222; margin: 5px; }
+        h6 { font-size: 12px; color: #6f6f6f; margin: 5px; }
+
+        #header {
+            width: 900px;
+            margin: auto;
+            margin-top: 50px;
+            position: relative;
+        }
+
+        /* Banner is positioned behind the content in the header */
+        #banner {
+            height: 108px;
+            background-image: url("header_.png"); /* Ensure this file exists */
+            background-size: cover;
+            background-position: center;
+            border: 1px solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #logo {
+            height: 60px; /* Adjust based on your Spectaria logo size */
+            z-index: 2;
+        }
+
+        #navbar {
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border: solid #000000;
+            border-width: 0px 1px 1px 1px;
+            background-color: #77B9FF;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 0 10px;
+            cursor: not-allowed; /* Shows navigation is locked */
+            opacity: 0.8;
+        }
+
+        #box {
+            width: 900px;
+            margin: auto;
+            margin-top: 10px;
+            border: 1px solid #000000;
+            background-color: #E9EBF3;
+            text-align: center;
+            padding: 20px 0 40px 0;
+        }
+
+        #subsect {
+            border: solid #AAAAAA;
+            border-width: 0px 0px 1px 0px;
+            margin: 0px 40px 20px 40px;
+            padding-bottom: 10px;
+        }
+
+        .maintenance-img {
+            max-width: 600px;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+        }
+
+        #footer {
+            text-align: center;
+            background: #00508a;
+            width: 900px;
+            margin: 10px auto 20px auto;
+            padding: 20px;
+            color: white;
+            font-size: 12px;
+        }
+
+        #footer a {
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <div id="banner">
+            <img src="images/logo.png" id="logo" alt="Spectaria" style="width: 300px; height: auto;">
+        </div>
+        
+        <div id="navbar">
+            <a href="#">Home</a> | 
+            <a href="#">Games</a> | 
+            <a href="#">Shop</a> | 
+            <a href="#">Forum</a> | 
+            <a href="#">Search</a>
+        </div>
+    </div>
+
+    <div id="box">
+        <div id="subsect">
+            <h6>Spectaria formerly Vertex</h6>
+            <h3 style="margin-bottom: 0px;">Spectaria is Under Construction</h3>
+            <h4 style="color:#444; margin-top:10px;">We'll be back shortly with a brand new experience!</h4>
+        </div>
+
+        <img src="images/maintenance.png" alt="Under Maintenance" class="maintenance-img">
+        
+        <p style="color: #666; font-size: 13px; margin-top: 20px;">
+            Thank you for your patience while we upgrade our brick-building engines.
+        </p>
+    </div>
+
+    <div id="footer">
+        &copy; 2026 Spectaria. All rights reserved. <br>
+        <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a>
+    </div>
+
+</body>
+</html>

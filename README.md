@@ -1,2 +1,2 @@
-# spectaria.github.io
-spectaria content site.
+# spectaria content site
+this website hosts content for https://spectaria.qzz.io/
